@@ -8,6 +8,13 @@
     .keyboard-3{
         display: none;
     }
+    .gio{
+        display: none;
+    }
+
+    .giorgi{
+        display: none;
+    }
 }
 @media(width > 768px){
     .section3-3{
