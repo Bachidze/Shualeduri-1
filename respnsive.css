@@ -1,0 +1,220 @@
+@media(width < 768px){
+    .keyboard{
+        display: none;
+    }
+    .keyboard-2{
+        display: none;
+    }
+    .keyboard-3{
+        display: none;
+    }
+}
+@media(width > 768px){
+    .section3-3{
+        display: none;
+    }
+
+    .section4-4{
+        display: none;
+    }
+
+    .section4-5{
+        display: none;
+    }
+    .keyboard,.keyboard-2,.keyboard-3{
+        border-radius: 15px;
+    }
+
+    .keyboard-2{
+        border-radius: 15px;
+        background: url(<path-to-image>), rgb(255, 98, 0) 0px 0px / 100% 100% no-repeat;
+        mix-blend-mode: multiply;
+    }
+
+    .area{
+        display: grid;
+        grid-template-areas: "pirveli meore"
+                              "pirveli meore"
+                              "mesame meotxe";
+    }
+
+    .area-1{
+        grid-area: pirveli;
+    }
+
+    .area-2{
+        grid-area: meore;
+    }
+
+    .area-3{
+        grid-area: mesame;
+        margin-left: -410px;
+    }
+
+    .area-4{
+        grid-area: meotxe;
+        padding-left: 25px;
+    }
+
+    .section2{
+        margin-left: -30px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;                    
+    }
+
+    .grid2-2{
+        margin-top: -25px;
+    }
+
+
+}
+
+
+@media (width > 1440px){
+
+    body{
+        padding: 90px;
+    }
+    .keyboard{
+        display: none;
+    }
+    .keyboard-2{
+        display: none;
+    }
+    .keyboard-3{
+        display: none;
+    }
+
+    .keyboard-keyboard{
+        border-radius:15px;
+       position: relative;
+       top: 25px;
+    }
+
+    .keyboard-22{
+        border-radius: 15px;
+    }
+
+    .keyboard-33{
+        border-radius: 15px;
+    }
+
+    .keyboard-22{
+        border-radius: 15px;
+        background: url(<path-to-image>), rgb(255, 98, 0) 0px 0px / 100% 100% no-repeat;
+        mix-blend-mode: multiply;
+    }
+
+ /*    .section2{
+        margin-left: -135px;
+    }
+    .section2 h5{
+        margin-left: -555px;
+    } */
+
+    .section1-1{
+        width: 150px;
+    }
+
+    .little{
+        position: relative;
+        left: 90px;
+        top: -215px;
+    }
+
+    .little-2{
+        position: relative;
+        left: -275px;
+        border-radius: 0  15px 15px 0;
+    }
+
+    .keyboard-22{
+        position: relative;
+        left: -240px;
+        top: 20px;
+    }
+
+    .keyboard-33{
+        position: relative;
+        left: -230px;
+        top: 20px;
+    }
+    .grid{
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .grid1-1{
+        display: none;
+    }
+
+    .grid2-2{
+        display: none;
+    }
+
+    .giorgi{
+        text-align: left;
+        width: 200px;
+        color: #162542;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
+    margin: 0 auto;
+    }
+    .gio{
+        width: 350px;
+        color: #7B8BAD;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .bachidze{
+        position: relative;
+        left: 300px;
+        top: -300px;
+    }
+  
+    h6{
+        color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    }
+}
+
+@media(width < 1440px){
+    .keyboard-keyboard{
+        display: none;
+    }
+
+    .keyboard-22{
+        display: none;
+    }
+
+    .keyboard-33{
+        display: none;
+    }
+
+    .little{
+        display: none;
+    }
+    .little-2{
+        display: none;
+    }
+}
