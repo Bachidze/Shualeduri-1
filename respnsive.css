@@ -270,3 +270,10 @@
         left: -570px;
     }
 }
+
+@media(width > 1800px){
+    .little-2{
+        position: relative;
+        left: -620px;
+    }
+}
