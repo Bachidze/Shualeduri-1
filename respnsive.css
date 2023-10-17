@@ -17,6 +17,10 @@
     }
 }
 @media(width > 768px){
+
+    html{
+        overflow-x: hidden;
+    }
     .section3-3{
         display: none;
     }
@@ -83,8 +87,11 @@
 
 @media (width > 1440px){
 
+    html{
+        overflow-x: hidden;
+    }
     body{
-        padding: 90px;
+        padding: 70px;
     }
     .keyboard{
         display: none;
@@ -135,7 +142,7 @@
 
     .little-2{
         position: relative;
-        left: -275px;
+        left: -360px;
         border-radius: 0  15px 15px 0;
     }
 
@@ -152,8 +159,8 @@
     }
     .grid{
         display: flex;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 0px;
+        padding-bottom: 100px;
     }
 
     .grid1-1{
@@ -223,5 +230,43 @@
     }
     .little-2{
         display: none;
+    }
+
+    .giorgi{
+        display: none;
+    }
+
+    .gio{
+        display: none;
+    }
+}
+
+@media(width > 1537px){
+    .little-2{
+        position: relative;
+        left: -400px;
+    }
+
+}
+
+@media(width > 1570px){
+    .little-2{
+        position: relative;
+        left: -420px;
+    }
+
+}
+
+@media(width > 1600px){
+    .little-2{
+        position: relative;
+        left: -500px;
+    }
+}
+
+@media(width > 1700px){
+    .little-2{
+        position: relative;
+        left: -570px;
     }
 }

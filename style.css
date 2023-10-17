@@ -153,6 +153,10 @@ h5{
     gap: 25px;
 }
 
+h4:hover{
+    opacity: 0.5;
+}
+
 h6{
     color: #162542;
     text-align: center;
