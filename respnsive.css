@@ -29,6 +29,15 @@
         display: none;
     }
 
+    .section1 p{
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .section1 h1{
+        margin: 0 auto;
+        width: 350px;
+    }
     .section4-5{
         display: none;
     }
@@ -109,6 +118,24 @@
        top: 25px;
     }
 
+    .section1 p{
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .section2{
+        display: flex;
+        justify-content: start;
+        margin-left: 90px;
+        gap: 30px
+        ;
+    }
+
+    .section1 h1{
+        margin: 0 auto;
+        width: 450px;
+    }
+
     .keyboard-22{
         border-radius: 15px;
     }
@@ -123,27 +150,20 @@
         mix-blend-mode: multiply;
     }
 
- /*    .section2{
-        margin-left: -135px;
-    }
-    .section2 h5{
-        margin-left: -555px;
-    } */
-
     .section1-1{
         width: 150px;
     }
 
     .little{
         position: relative;
-        left: 90px;
+        left: 250px;
         top: -215px;
     }
 
     .little-2{
         position: relative;
-        left: -360px;
         border-radius: 0  15px 15px 0;
+        left: -300px;
     }
 
     .keyboard-22{
@@ -210,6 +230,7 @@
     line-height: 28px;
     text-transform: uppercase;
     }
+
 }
 
 @media(width < 1440px){
@@ -247,12 +268,16 @@
         left: -400px;
     }
 
+    .section2{
+        margin-left: 90px;
+    }
 }
 
 @media(width > 1570px){
     .little-2{
         position: relative;
-        left: -420px;
+        left: -310px;
+        margin-left: 90px;
     }
 
 }
@@ -260,27 +285,37 @@
 @media(width > 1600px){
     .little-2{
         position: relative;
-        left: -500px;
+        left: -320px;
+    }
+
+    .little{
+        position: relative;
+        left: 300px;
     }
 }
 
 @media(width > 1700px){
     .little-2{
         position: relative;
-        left: -570px;
+        right: -370px;
+    }
+
+    .little{
+        position: relative;
+        left: 500px;
     }
 }
 
 @media (width > 1750px){
     .little-2{
         position: relative;
-        left: -600px;
+        left: -370px;
     }
 }
 
 @media(width > 1800px){
     .little-2{
         position: relative;
-        left: -620px;
+        left: -410px;
     }
 }
